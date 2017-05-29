@@ -1,0 +1,26 @@
+<?php
+
+return [
+		'user-management' => [		'title' => 'User Management',		'created_at' => 'Time',		'fields' => [		],	],
+		'roles' => [		'title' => 'Roles',		'created_at' => 'Time',		'fields' => [			'title' => 'Title',		],	],
+		'users' => [		'title' => 'Users',		'created_at' => 'Time',		'fields' => [			'name' => 'Name',			'email' => 'Email',			'password' => 'Password',			'role' => 'Role',			'remember-token' => 'Remember token',		],	],
+		'internal-notifications' => [		'title' => 'Notifications',		'created_at' => 'Time',		'fields' => [			'text' => 'Text',			'link' => 'Link',			'users' => 'Users',		],	],
+		'deals' => [		'title' => 'Deals',		'created_at' => 'Time',		'fields' => [		],	],
+		'agent-sales' => [		'title' => 'Sales',		'created_at' => 'Time',		'fields' => [			'file-number' => 'File Number',			'client' => 'Client',			'property' => 'Property',			'city-town-village' => 'City/Town/Village',			'county' => 'County',			'buyer' => 'Buyer',			'buyer-attorney' => 'Buyer Attorney',			'rep-agmt' => 'Rep. Agmt',			'approval-letter' => 'Approval Letter',			'search-update' => 'Search Update',			'survey-update' => 'Survey Update',			'tax-receipts' => 'Tax Receipts',			'sewer-water-compliance' => 'Sewer/Water/Compliance',			'proposed-deed' => 'Proposed Deed',			'mortgage-commitment' => 'Mortgage Commitment',			'seach' => 'Seach, Taxes, Deed Sent to Buyer Attorney',			'mortgage-payoff-info' => 'Mortgage Payoff Info',			'title-report-from-buyer' => 'Title Report from Buyer',			'closing-docs-drafted' => 'Closing Docs Drafted',			'closing-statement' => 'Closing Statement',			'closing-statement-to-buyer' => 'Closing Statement to Buyer',			'closing-date' => 'Closing Date',			'notes' => 'Notes',			'agent' => 'Agent',		],	],
+		'agent-purchases' => [		'title' => 'Purchases',		'created_at' => 'Time',		'fields' => [			'file-number' => 'File Number',			'property' => 'Property',			'city-town-village' => 'City/Town/Village',			'county' => 'County',			'seller' => 'Seller',			'seller-attorney' => 'Seller Attorney',			'bank-attorney' => 'Bank Attorney',			'rep-agmt' => 'Rep. Agmt.',			'approval-letter' => 'Approval Letter',			'seller-approval-letter' => 'Seller Approval Letter',			'search-update-received' => 'Search Update Received',			'survey-update-received' => 'Survey Update Received',			'tax-receipts' => 'Tax Receipts',			'sewer' => 'Sewer/Water/Compliance Tax Certificates',			'pina' => 'PINA',			'proposed-deed-received' => 'Proposed Deed Received',			'mortgage-commitment' => 'Mortgage Commitment',			'mc' => 'MC Rate Lock Expiration',			'survey-taxes' => 'Survey, Taxes & Deed Sent to Bank Attorney',			'ordered-title-insurance' => 'Ordered Title Insurance',			'title-report-to-seller' => 'Title Report To Seller',			'title-report-to-bank' => 'Title Report to Bank',			'hoi-binder' => 'HOI Binder',			'hoi-binder-receipt-to-bank' => 'HOI Binder/Receipt to Bank',			'closing-statement-received' => 'Closing Statement Received',			'closing-statement-to-bank' => 'Closing Statement to Bank',			'closing-date' => 'Closing Date',			'notes' => 'Notes',			'agent' => 'Agent',		],	],
+	'qa_create' => 'Toevoegen',
+	'qa_save' => 'Opslaan',
+	'qa_edit' => 'Bewerken',
+	'qa_view' => 'Bekijken',
+	'qa_update' => 'Bijwerken',
+	'qa_list' => 'Lijst',
+	'qa_no_entries_in_table' => 'Geen inhoud gevonden',
+	'custom_controller_index' => 'Custom controller index.',
+	'qa_logout' => 'Logout',
+	'qa_add_new' => 'Toevoegen',
+	'qa_are_you_sure' => 'Ben je zeker?',
+	'qa_back_to_list' => 'Terug naar lijst',
+	'qa_dashboard' => 'Boordtabel',
+	'qa_delete' => 'Verwijderen',
+	'quickadmin_title' => 'Agent Portal',
+];
